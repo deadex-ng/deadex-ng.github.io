@@ -57,7 +57,7 @@ with open('../pipeline.json', 'w') as f:
 pipeline_path = '../pipeline.json'
 #run pdal pipeline in python
 PDALPipeline.run_pipeline(pipeline_path)
-```
+```py
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
