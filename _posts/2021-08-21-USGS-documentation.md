@@ -29,7 +29,35 @@ I work at an AgriTech, which has a mix of domain experts, data scientists, data 
 ### Quick start
 This code has not been built into a python package has not been built into a python libray yet.
 This code creates a custom pdal pipeline. The paratemeters of the pipeline can be modified by editing `main.py`.
+```
+boundaries = bounds.set_bounds(-93.756155, 41.918015, -93.747334, 41.921429)
 
+#check if region exists
+flag = region.check_region_exists('IA_FullState')
+
+#set region
+region_url = region.set_region('IA_FullState')
+
+#set output file
+output_file = file_handler_obj.set_output_file_name('iowa')
+
+#read pdal pipeline 
+json_file = open('../pipeline.json')
+data = json.load(json_file)
+
+#edit json file 
+data['pipeline'][0]['bounds']=boundaries
+data['pipeline'][0]['filename']=region_url
+data['pipeline'][6]['filename']=output_file[0]
+data['pipeline'][7]['filename']=output_file[1]
+with open('../pipeline.json', 'w') as f:
+    f.write(json.dumps(data))
+
+
+pipeline_path = '../pipeline.json'
+#run pdal pipeline in python
+PDALPipeline.run_pipeline(pipeline_path)
+```
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
