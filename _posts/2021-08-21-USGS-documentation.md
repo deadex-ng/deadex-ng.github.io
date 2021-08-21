@@ -71,6 +71,8 @@ The plot below shows the height distribution of different points.
 
 We can also genearate a 3D of the terrain from the extacted data.This picture shows how a 3D terrain looks like.The actual 3D is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/3D)
 ![Picture of 3D image](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/3d_2d_terrain.PNG)
+
+
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
