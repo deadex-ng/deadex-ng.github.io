@@ -26,9 +26,15 @@ This document outlines the content of the package and documents how the package 
 ### Introduction
 I work at an AgriTech, which has a mix of domain experts, data scientists, data engineers. As part of the data engineering team, I have been tasked to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular,the code will interface with USGS 3DEP and fetch data using their API. 
 
+### Installation
+You can clone this python package to your local machine by running the following command 
+```console
+$ git clone https://github.com/deadex-ng/usgs_lidar_package.git
+```
 ### Quick start
 This code has not been built into a python package has not been built into a python libray yet.
 This code creates a custom pdal pipeline. The paratemeters of the pipeline can be modified by editing `main.py`.
+
 ```python
 boundaries = bounds.set_bounds(-93.756155, 41.918015, -93.747334, 41.921429)
 
