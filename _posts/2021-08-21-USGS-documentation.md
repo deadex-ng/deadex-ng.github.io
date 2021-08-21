@@ -64,6 +64,9 @@ pipeline_path = '../pipeline.json'
 #run pdal pipeline in python
 PDALPipeline.run_pipeline(pipeline_path)
 ```
+Once the pipeline has been executed,we have the .las and .tif file.We can extract data from these files.From a .las file,we can extract x,y and z.
+![](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/height_scatter_plot.png)
+
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
