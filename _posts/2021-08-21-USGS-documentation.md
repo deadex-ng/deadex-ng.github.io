@@ -1,4 +1,4 @@
-# USGS DOcumentation
+# USGS package Documentation
 
 I have built an easy to use, reliable and
 well designed python module that domain experts and data scientists can use to fetch,
