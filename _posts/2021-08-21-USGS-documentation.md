@@ -26,6 +26,10 @@ This document outlines the content of the package and documents how the package 
 ### Introduction
 I work at an AgriTech, which has a mix of domain experts, data scientists, data engineers. As part of the data engineering team, I have been tasked to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular,the code will interface with USGS 3DEP and fetch data using their API. 
 
+### Quick start
+This code has not been built into a python package has not been built into a python libray yet.
+This code creates a custom pdal pipeline. The paratemeters of the pipeline can be modified by editing `main.py`.
+
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
 - `visualizeTif.ipynb`: Notebook file showing a visual map of a tif file.
