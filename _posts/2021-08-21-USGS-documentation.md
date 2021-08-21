@@ -29,7 +29,7 @@ I work at an AgriTech, which has a mix of domain experts, data scientists, data 
 ### Quick start
 This code has not been built into a python package has not been built into a python libray yet.
 This code creates a custom pdal pipeline. The paratemeters of the pipeline can be modified by editing `main.py`.
-```python:
+```python
 boundaries = bounds.set_bounds(-93.756155, 41.918015, -93.747334, 41.921429)
 
 #check if region exists
