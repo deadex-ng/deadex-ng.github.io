@@ -64,11 +64,12 @@ pipeline_path = '../pipeline.json'
 #run pdal pipeline in python
 PDALPipeline.run_pipeline(pipeline_path)
 ```
-Once the pipeline has been executed,we have the .las and .tif file.We can extract data from these files.From a .las file,we can extract x,y and z. 
+Once the pipeline has been executed,we have the .las and .tif file.We can extract data from these files.From a .las file,we can extract x,y and z and visualize the data.
+The data visualization code is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/notebooks)
 The plot below shows the height distribution of different points.
 ![Height Scatter Plot](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/height_scatter_plot.png)
 
-We also genearate a 3D of the terrain from the extacted data.This picture shows how a 3D terrain looks like.The actual 3D is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/3D)
+We can also genearate a 3D of the terrain from the extacted data.This picture shows how a 3D terrain looks like.The actual 3D is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/3D)
 ![Picture of 3D image](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/3d_2d_terrain.PNG)
 ## Notebooks
 - `vizualization.ipynb` : Notebook file showing **extracted data from las file**, **Geopandas dataframe with extracted data**, **Height Scatter Plot**, **IDW Function**, **Interpolation Points** and **3D render of the Terrain**
