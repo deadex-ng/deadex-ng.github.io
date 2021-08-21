@@ -11,7 +11,7 @@ This document outlines the content of the package and documents how the package 
 ## Table of Content
 - [Introduction](#introduction)
 - [Installation](#Installation)
-- [Quick start](#Quick start)
+- [Quicktart](#Quicktart)
 - [Notebooks](#notebooks)
 - [Scripts](#scripts)
 - [utils](#utils)
@@ -31,7 +31,7 @@ You can clone this python package to your local machine by running the following
 ```console
 $ git clone https://github.com/deadex-ng/usgs_lidar_package.git
 ```
-### Quick start
+### Quickstart
 This code has not been built into a python package has not been built into a python libray yet.
 This code creates a custom pdal pipeline. The paratemeters of the pipeline can be modified by editing `main.py`.
 
