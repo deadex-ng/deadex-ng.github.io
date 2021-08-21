@@ -5,6 +5,9 @@ well designed python module that domain experts and data scientists can use to f
 visualise, and transform publicly available satellite and LIDAR data. In particular, the code
 will interface with [USGS 3DEP](https://www.usgs.gov/core-science-systems/ngp/3dep) and fetch data using their API.
 
+The github repository of the package can be found [here](https://github.com/deadex-ng/usgs_lidar_package).
+This document outlines the content of the package and documents how the package can be used
+
 ## Table of Content
 - [Introduction](#introduction)
 - [Notebooks](#notebooks)
