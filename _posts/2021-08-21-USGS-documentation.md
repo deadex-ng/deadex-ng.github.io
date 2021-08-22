@@ -6,7 +6,9 @@ visualise, and transform publicly available satellite and LIDAR data. In particu
 will interface with [USGS 3DEP](https://www.usgs.gov/core-science-systems/ngp/3dep) and fetch data using their API.
 
 The github repository of the package can be found [here](https://github.com/deadex-ng/usgs_lidar_package).
-This document outlines the content of the package and documents how the package can be used
+This document outlines the content of the package and documents how the package can be used.
+
+The latest code updates are documented in the [README file](https://github.com/deadex-ng/usgs_lidar_package)
 
 ## Table of Content
 - [Introduction](#introduction)
