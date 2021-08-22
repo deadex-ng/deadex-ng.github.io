@@ -67,7 +67,7 @@ PDALPipeline.run_pipeline(pipeline_path)
 Once the pipeline has been executed,we have the .las and .tif file.We can extract data from these files.From a .las file,we can extract x,y and z and visualize the data.
 The data visualization code is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/notebooks)
 The plot below shows the height distribution of different points.
-![Height Scatter Plot](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/height_scatter_plot.png)
+![Height Scatter Plot](https://github.com/deadex-ng/deadex-ng.github.io/blob/main/_images/height_scatter_plot.png)
 
 We can also genearate a 3D of the terrain from the extacted data.This picture shows how a 3D terrain looks like.The actual 3D is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/3D)
 ![Picture of 3D image](https://drive.google.com/drive/folders/1tLL_yQ6PyUaxwdPPI88phl3d1wS0fSef)
