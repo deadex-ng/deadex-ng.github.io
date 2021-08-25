@@ -1,4 +1,3 @@
-##Causal Inference 
 
 Our work is an attempt to perform casual inference using Judea Pearl’s framework, infer the causal graph from the observational data 
 and merge machine learning with causal inference. This project uses breast cancer dataset which can be found here. Causal inference 
