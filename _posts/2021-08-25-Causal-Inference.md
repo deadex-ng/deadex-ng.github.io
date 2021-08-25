@@ -1,6 +1,7 @@
 
 Our work is an attempt to perform casual inference using Judea Pearl’s framework, infer the causal graph from the observational data 
-and merge machine learning with causal inference. This project uses breast cancer dataset which can be found here. Causal inference 
+and merge machine learning with causal inference. This project uses breast cancer dataset which can be found
+[here](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data). Causal inference 
 refers to an intellectual discipline that considers the assumptions, study designs and estimation strategies that allow researchers 
 to draw causal conclusion based on data (Rubin, 2010).Merging causal inference with machine learning is fairly a new research area.
 Machine learning algorithms have outperformed humans in different complicated tasks such as playing chess and go. They are able to find 
@@ -30,8 +31,8 @@ Ten real-valued features are computed for each cell nucleus:
 
 References 
 
-Dickson, B.(15, March 2021).Why machine learning struggles with causality. bdtechtalks. 
-https://bdtechtalks.com/2021/03/15/machine-learning-causality/
+Dickson, B.(15, March 2021).Why machine learning struggles with causality. bdtechtalks.[https://bdtechtalks.com/2021/03/15/machine-learning-causality/] 
+(https://bdtechtalks.com/2021/03/15/machine-learning-causality/)
 
 Rubin, D.B (2010). Causal Inference.Internantional Encyclopedia of the Social and Behavioral Sciences
 
