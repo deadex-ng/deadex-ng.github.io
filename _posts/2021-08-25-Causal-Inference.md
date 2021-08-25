@@ -31,8 +31,7 @@ Ten real-valued features are computed for each cell nucleus:
 
 References 
 
-Dickson, B.(15, March 2021).Why machine learning struggles with causality. bdtechtalks.[https://bdtechtalks.com/2021/03/15/machine-learning-causality/] 
-(https://bdtechtalks.com/2021/03/15/machine-learning-causality/)
+Dickson, B.(15, March 2021).Why machine learning struggles with causality.bdtechtalks. [https://bdtechtalks.com/2021/03/15/machine-learning-causality/](https://bdtechtalks.com/2021/03/15/machine-learning-causality/)
 
 Rubin, D.B (2010). Causal Inference.Internantional Encyclopedia of the Social and Behavioral Sciences
 
