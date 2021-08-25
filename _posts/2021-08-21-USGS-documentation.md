@@ -72,7 +72,7 @@ The plot below shows the height distribution of different points.
 ![Height Scatter Plot](https://github.com/deadex-ng/deadex-ng.github.io/blob/main/_images/height_scatter_plot.png)
 
 We can also genearate a 3D of the terrain from the extacted data.This picture shows how a 3D terrain looks like.The actual 3D is [here](https://github.com/deadex-ng/usgs_lidar_package/tree/main/3D)
-![Picture of 3D image](https://drive.google.com/drive/folders/1tLL_yQ6PyUaxwdPPI88phl3d1wS0fSef)
+![Picture of 3D image](_images/height_scatter_plot.png)
 ![Picture of 3D image](https://github.com/deadex-ng/usgs_lidar_package/blob/main/graphs/3d_2d_terrain.PNG)
 
 
