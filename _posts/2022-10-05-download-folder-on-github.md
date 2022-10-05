@@ -9,4 +9,4 @@ DownGit, allows you to download a specific folder in a repository by passing in 
 ## Using DownGit
 Copy the URL of the folder you want to download and paste it in DownGit search bar.
 ![Downloading Repository Folder](\_images\downgit.PNG "Downloading Repository Folder").
-![Some text]({{site.url}}{{site.baseurl}}/_images\downgit.PNG)
+![Some text]({{site.url}}{{site.baseurl}}/_images/downgit.PNG)
