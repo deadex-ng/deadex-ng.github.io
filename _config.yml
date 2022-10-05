@@ -22,7 +22,7 @@ theme: "minima"
 
 rss: rss
 baseurl: "/deadex-ng.github.io"
-url: "https://deadex-ng.github.io" 
+url: "http://deadex-ng.github.io" 
 
 kramdown:
   syntax_highlighter_opts:
