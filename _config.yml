@@ -21,6 +21,8 @@ github_username: "deeadex-ng"
 theme: "minima"
 
 rss: rss
+baseurl: "/deadex-ng.github.io"
+url: "https://deadex-ng.github.io" 
 
 kramdown:
   syntax_highlighter_opts:
